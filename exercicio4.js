@@ -73,8 +73,8 @@ const typeSentence = "O tipo de dado que a const " + isRandomTVShowIncluded + " 
 */
 const charCount = typeSentence.length;
 const isStringLong = charCount > 39;
-const isStringLongFormatted = String(isStringLong)
-.charAt(0).toUpperCase() + String(isStringLong).slice(1);
+const isStringLongFormatted = toString(isStringLong)
+.charAt(0).toUpperCase() + toString(isStringLong).slice(1);
 
 console.log(`A string que a "typeSetence" armazena, tem mais de ${charCount} caracteres? ${isStringLongFormatted}. `)
 
