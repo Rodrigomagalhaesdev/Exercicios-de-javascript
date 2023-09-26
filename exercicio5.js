@@ -47,7 +47,7 @@ for (let contador = 0; contador < 6; contador++) {
   "Esta é a Xª vez que esta frase é exibida no console."
 */
 
-for (let i = 0; i < 11; i++) {
+for (let i = 0; i <= 10; i++) {
   //console.log(`Esta é a ${i} vez que esta frase é exibida no console`)
 }
 
