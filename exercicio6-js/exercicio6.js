@@ -64,9 +64,9 @@ if (horaAtual >= 6 && horaAtual < 12) {
   - Agora, teste diferentes idades para se certificar que a condição do `if`  
     também está funcionando.
 */
-const ageOfRoline = 30;
+const ageOfMan = 30;
 
-if (ageOfRoline <= 7 || ageOfRoline >= 65) {
+if (ageOfMan <= 7 || ageOfMan >= 65) {
   console.log("Para você, a entrada é gratis!")
 } else {
   console.log("A entrada é R$ 30,00")
